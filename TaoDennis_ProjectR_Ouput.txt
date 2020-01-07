@@ -1,0 +1,220 @@
+q1
+q1a
+        Player Team Pos   G  AB   H HR
+1  Hamilton, J  TEX  LF 133 518 186 32
+2   Cabrera, M  DET  1B 150 548 180 38
+3     Mauer, J  MIN   C 137 510 167  9
+4    Beltre, A  BOS  3B 154 589 189 28
+5      Cano, R  NYY  2B 160 626 200 29
+6    Butler, B   KC  DH 158 595 189 15
+q1b
+        Player Team Pos   G  AB   H HR
+1    Altuve, J  HOU  2B 158 660 225  7
+2  Martinez, V  DET  DH 151 561 188 32
+3  Brantley, M  CLE  LF 156 611 200 20
+4    Beltre, A  TEX  3B 148 549 178 19
+5     Abreu, J  CWS  1B 145 556 176 36
+6      Cano, R  SEA  2B 157 595 187 14
+q1c
+        Player Team Pos   G  AB   H HR
+1  Hamilton, J  TEX  LF 133 518 186 32
+4    Beltre, A  BOS  3B 154 589 189 28
+5      Cano, R  NYY  2B 160 626 200 29
+7    Suzuki, I  SEA  RF 162 680 214  6
+8   Konerko, P  CWS  1B 149 548 171 39
+9  Crawford, C   TB  LF 154 600 184 19
+q1d
+        Player Team Pos   G  AB   H HR Year
+1     Abreu, B  LAA  RF 154 573 146 20 2010
+2    Andrus, E  TEX  SS 157 619 163  2 2014
+3     Aybar, E  LAA  SS 156 589 164  7 2014
+4  Bartlett, J   TB  SS 135 468 119  4 2010
+5    Barton, D  OAK  1B 159 556 152 10 2010
+6  Bautista, J  TOR  RF 155 553 158 35 2014
+q1e
+  Team        Player Pos   G  AB   H HR Year                       TeamName
+1  BAL    Wieters, M   C 130 446 111 11 2010 Baltimore Orioles             
+2  BAL      Davis, C  1B 127 450  88 26 2014 Baltimore Orioles             
+3  BAL    Izturis, C  SS 150 473 109  1 2010 Baltimore Orioles             
+4  BAL      Jones, A  CF 159 644 181 29 2014 Baltimore Orioles             
+5  BAL       Cruz, N  LF 159 613 166 40 2014 Baltimore Orioles             
+6  BAL  Wigginton, T  1B 154 581 144 22 2010 Baltimore Orioles             
+q1f
+  Team        Player Pos   G  AB   H HR Year                       TeamName   Average
+1  BAL    Wieters, M   C 130 446 111 11 2010 Baltimore Orioles              0.2488789
+2  BAL      Davis, C  1B 127 450  88 26 2014 Baltimore Orioles              0.1955556
+3  BAL    Izturis, C  SS 150 473 109  1 2010 Baltimore Orioles              0.2304440
+4  BAL      Jones, A  CF 159 644 181 29 2014 Baltimore Orioles              0.2810559
+5  BAL       Cruz, N  LF 159 613 166 40 2014 Baltimore Orioles              0.2707993
+6  BAL  Wigginton, T  1B 154 581 144 22 2010 Baltimore Orioles              0.2478485
+q1g
+  Summary Year          G
+1    mean 2010 146.351852
+2     std 2010   9.788629
+3  median 2010 149.500000
+4    mean 2014 143.986842
+5     std 2014  12.339091
+6  median 2014 145.000000
+q1h
+  Summary Pos       HR
+1    mean  1B 23.35000
+2    mean  DH 22.33333
+3    mean  RF 19.06667
+4    mean  LF 17.76471
+5    mean  3B 17.06250
+6    mean   C 15.36364
+7    mean  CF 14.12500
+8    mean  2B 12.23077
+9    mean  SS  7.93750
+q1i
+q2
+q2.1
+q2.1a
+q2.1b
+q2.1c
+'data.frame':	200 obs. of  7 variables:
+ $ Country         : Factor w/ 200 levels "Afghanistan",..: 3 5 19 23 27 28 31 33 34 35 ...
+ $ GlobalReigon    : Factor w/ 5 levels "World | Africa",..: 1 1 1 1 1 1 1 1 1 1 ...
+ $ Agricultural    : num  3.502 0.147 0.059 0.08 0.421 ...
+ $ Industrial      : num  0.9509 0.2396 0.03 0.0389 0.0217 ...
+ $ Municipal       : num  1.581 0.3195 0.041 0.0878 0.3756 ...
+ $ Total           : num  5.723 0.706 0.13 0.194 0.818 ...
+ $ Total per capita: num  175.7 39.9 17.5 107.2 57.5 ...
+q2.1d
+q2.2
+q2.2a
+q2.2b
+q2.2c
+q2.2d
+q2.2e
+q2.2f
+'data.frame':	215 obs. of  4 variables:
+ $ Country                              : chr  "Afghanistan" "Albania" "Algeria" "American Samoa" ...
+ $ CountryCode                          : Factor w/ 216 levels "","ABW","ADO",..: 4 6 56 10 3 5 11 8 9 2 ...
+ $ "Agriculture, value added (% of GDP)": num  24 22.7 10 NA NA ...
+ $ "Population, total"                  : num  31280518 2894475 39928947 55320 80153 ...
+q2.3
+              Country GlobalReigon Agricultural Industrial Municipal   Total Total per capita CountryCode
+1         Afghanistan         Asia      20.0000     0.1695    0.2034 20.2800           913.40         AFG
+2             Albania       Europe       0.5176     0.2318    0.5613  1.3110           414.10         ALB
+3             Algeria       Africa       3.5020     0.9509    1.5810  5.7230           175.70         DZA
+4             Andorra       Europe           NA         NA        NA      NA               NA         ADO
+5              Angola       Africa       0.1467     0.2396    0.3195  0.7058            39.85         AGO
+6 Antigua and Barbuda     Americas       0.0018     0.0025    0.0072  0.0115           129.20         ATG
+  "Agriculture, value added (% of GDP)" "Population, total"
+1                             23.966824            31280518
+2                             22.671257             2894475
+3                             10.011399            39928947
+4                                    NA               80153
+5                              9.436309            22137261
+6                              2.243477               90903
+q2.3a
+                                      Country
+29                             Côte d'Ivoire
+33                                 Cape Verde
+42                               Cook Islands
+48      Democratic People's Republic of Korea
+49           Democratic Republic of the Congo
+61                              Faroe Islands
+77                                   Holy See
+95                                 Kyrgyzstan
+96           Lao People's Democratic Republic
+123                                     Nauru
+130                                      Niue
+132            Occupied Palestinian Territory
+145                         Republic of Korea
+146                       Republic of Moldova
+150                     Saint Kitts and Nevis
+151                               Saint Lucia
+152          Saint Vincent and the Grenadines
+162                                  Slovakia
+178 The former Yugoslav Republic of Macedonia
+181                                   Tokelau
+192               United Republic of Tanzania
+193                  United States of America
+198                                  Viet Nam
+q2.3b
+                           Country
+4                   American Samoa
+10                           Aruba
+22                         Bermuda
+32                      Cabo Verde
+36                  Cayman Islands
+39                 Channel Islands
+47                   Cote d'Ivoire
+50                         Curacao
+64                  Faeroe Islands
+68                French Polynesia
+75                       Greenland
+77                            Guam
+84                   Hong Kong SAR
+92                     Isle of Man
+101                          Korea
+102                          Korea
+103                         Kosovo
+105                Kyrgyz Republic
+106                        Lao PDR
+115                      Macao SAR
+116                      Macedonia
+128                        Moldova
+138                  New Caledonia
+143       Northern Mariana Islands
+169                   Sint Maarten
+170                Slovak Republic
+178            St. Kitts and Nevis
+179                      St. Lucia
+180                     St. Martin
+181 St. Vincent and the Grenadines
+188                         Taiwan
+190                       Tanzania
+199       Turks and Caicos Islands
+205                  United States
+210                        Vietnam
+211                 Virgin Islands
+212             West Bank and Gaza
+q2.3c
+              Country GlobalReigon Agricultural Industrial Municipal   Total Total per capita CountryCode
+1         Afghanistan         Asia      20.0000     0.1695    0.2034 20.2800           913.40         AFG
+2             Albania       Europe       0.5176     0.2318    0.5613  1.3110           414.10         ALB
+3             Algeria       Africa       3.5020     0.9509    1.5810  5.7230           175.70         DZA
+4             Andorra       Europe           NA         NA        NA      NA               NA         ADO
+5              Angola       Africa       0.1467     0.2396    0.3195  0.7058            39.85         AGO
+6 Antigua and Barbuda     Americas       0.0018     0.0025    0.0072  0.0115           129.20         ATG
+  Agriculture, value added (% of GDP) Population, total
+1                           23.966824          31280518
+2                           22.671257           2894475
+3                           10.011399          39928947
+4                                  NA             80153
+5                            9.436309          22137261
+6                            2.243477             90903
+q2.3d
+                             Country
+41                      Cook Islands
+48  Democratic Republic of the Congo
+76                          Holy See
+124                            Nauru
+131                             Niue
+134   Occupied Palestinian Territory
+182                          Tokelau
+                     Country
+4             American Samoa
+10                     Aruba
+22                   Bermuda
+36            Cayman Islands
+39           Channel Islands
+50                   Curacao
+68          French Polynesia
+75                 Greenland
+77                      Guam
+84             Hong Kong SAR
+92               Isle of Man
+101                   Kosovo
+113                Macao SAR
+136            New Caledonia
+142 Northern Mariana Islands
+168             Sint Maarten
+180               St. Martin
+188                   Taiwan
+199 Turks and Caicos Islands
+211           Virgin Islands
+212       West Bank and Gaza
